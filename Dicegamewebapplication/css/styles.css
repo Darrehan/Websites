@@ -1,0 +1,94 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  padding: 2px;
+  margin: 0px;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #666464;
+  font-size: 6rem;
+  color: #e3e3e3;
+}
+
+p,
+h3 {
+  font-size: 3rem;
+  color: #403f3f;
+  font-family: 'Montserrat';
+  margin: 0px;
+}
+
+img {
+  width: 80%;
+  margin: 4px;
+}
+
+/*  Animation class stuff here */
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* gardient color */
+.colortheory-2 {
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+.colortheory-1 {
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+#footer {
+  padding: 0px;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 0px;
+}
+
+#footer p {
+  color: #e1dede;
+  font-family: 'Montserrat';
+  margin-bottom: 0px;
+  font-size: medium;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: rgb(255, 255, 255);
+}
+
+.box {
+  box-shadow: #e1dede 0px 0px 10px 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}

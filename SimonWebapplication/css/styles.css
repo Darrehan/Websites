@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+}
+
+main {
+  display: inline-block;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#level-title {
+  font-family: sans-serif;
+  font-size: 3rem;
+  color: #fffafa;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.row {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 5px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid rgb(66, 66, 66);
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  border-radius: 3px solid white;
+  margin-top: 25px;
+  padding: 3px;
+}
+
+.box {
+  box-shadow: #e1dede 0px 0px 10px 0px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+#footer p {
+  color: #fbfbfb;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: rgb(239, 231, 231);
+}
+
+/*  Animation class stuff here */
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* gardient color */
+.colortheory-2 {
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+
+.colortheory-1 {
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}

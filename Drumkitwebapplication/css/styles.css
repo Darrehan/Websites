@@ -1,0 +1,131 @@
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif
+}
+
+h1 {
+  font-size: 5rem;
+  color: #fefefe;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #333132;
+  padding-bottom: 30px;
+}
+
+/*  Animation class */
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.colortheory-1 {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.colortheory-2 {
+  background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+}
+
+.colortheory-3 {
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+#footer {
+  margin-top: 12%;
+  padding: 1px;
+  text-align: center;
+  font-family: sans-serif;
+  border-top: #DBEDF3 1px solid;
+  box-shadow: #cfc7f8 0px 0px 10px 0px;
+  text-shadow: 0px 0px 1px #DBEDF3;
+}
+
+#footer p {
+  color: #ffeeee;
+
+}
+
+#footer .social-icon {
+  margin: 20px 10px;
+  color: rgb(255, 255, 255);
+}
+
+.w {
+  background-image: url("../images/tom1.png");
+}
+
+.a {
+  background-image: url("../images/tom2.png");
+}
+
+.s {
+  background-image: url("../images/tom3.png");
+}
+
+.d {
+  background-image: url("../images/tom4.png");
+}
+
+.j {
+  background-image: url("../images/snare.png");
+}
+
+.k {
+  background-image: url("../images/crash.png");
+}
+
+.l {
+  background-image: url("../images/kick.png");
+}
+
+.set {
+  padding: 40px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #000000;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
