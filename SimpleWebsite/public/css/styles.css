@@ -229,3 +229,62 @@ h6 {
 .carousel-item {
   padding: 10% 15%;
 }
+/* Adjusting text sizes for better mobile responsiveness */
+@media (max-width: 768px) {
+  .big-heading, .cta-heading {
+    font-size: 2rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  #features p, #team p, .testimonial-text {
+    font-size: 0.9rem;
+  }
+
+  .download-button {
+    margin: 3% 2%;
+  }
+}
+
+@media (max-width: 480px) {
+  .big-heading, .cta-heading {
+    font-size: 1.8rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  #features p, #team p, .testimonial-text {
+    font-size: 0.85rem;
+  }
+
+  .download-button {
+    margin: 2% 1%;
+  }
+}
+@media (max-width: 768px) {
+  .company-image {
+    width: 70%; /* Reduce image size for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .company-image {
+    width: 50%; /* Further reduce image size for mobile screens */
+  }
+
+  .feature-box {
+    padding: 3%; /* Reduce padding for better spacing */
+  }
+}

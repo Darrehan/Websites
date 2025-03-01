@@ -18,7 +18,16 @@
         "marquee": "off"
       }
     ],
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "min-height: auto",
+          "user-select"
+        ]
+      }
+    ]
   },
   "browserslist": [
     "defaults",
